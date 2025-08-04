@@ -58,7 +58,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 \`\`\`bash
-git clone https://github.com/your-username/solana-reputation-board.git
+git clone https://github.com/r0ktech/Codigo-Bounty.git
 cd solana-reputation-board
 \`\`\`
 
