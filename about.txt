@@ -1,0 +1,70 @@
+
+🧠 ReputationBoard: Onchain DAO Reputation System
+
+A plug-and-play Solana smart contract for tracking wallet-based reputation points — with token-gated voting, cooldowns, leaderboards, role unlocks, and score decay.
+
+
+
+ 🔧 Use Cases
+
+DAOs & Guilds: Reward active contributors with points and unlock special roles.
+Token Communities: Allow token holders to upvote/downvote peers.
+Onchain Games: Track player merit and progress over time.
+Hackathons & Bounties: Let teams rate each other post-event.
+
+⚙️ How It Works
+
+1. Token-Gated Voting
+
+   Only SPL token holders can vote.
+   Each wallet can upvote/downvote others with cooldown timers (e.g., once every 24h).
+
+2. Reputation Points
+
+ Points are tracked on-chain by wallet address.
+ Users gain or lose points based on community votes.
+
+3. Cooldowns & Abuse Prevention
+
+   Voting frequency is limited to prevent sybil/spam behavior.
+
+4. Leaderboards
+
+ View top N contributors with live rankings.
+
+5. Role Unlocks
+
+ Reach score thresholds (e.g., 100 pts) to auto-unlock DAO roles.
+
+6. Decay & Resets
+
+   Optional weekly decay (e.g., -10%) keeps rankings fresh.
+   Admins can reset all scores for seasonal use.
+
+
+
+ 🧩 How DAOs Can Plug It In
+
+1. Deploy the Program using Anchor on Solana.
+2. Set Your SPL Token for voting eligibility.
+3. Define Roles & Threshold (e.g., “Core Contributor” at 500 pts).
+4. Integrate Frontend
+
+ Use leaderboards, scores, and role data in your app or UI.
+Reputation data can be exported to badges, ranks, or Discord roles.
+
+
+
+🧪 Tests Included
+
+* Voting logic
+* Cooldown enforcement
+* Leaderboard correctness
+* Role unlocks
+* Score reset & decay
+
+
+
+ 📁 Built with [Codigo](https://codigo.ai)
+
+
